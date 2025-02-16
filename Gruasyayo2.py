@@ -19,7 +19,7 @@ def load_data(json_file):
 data = load_data("gruas_data.json")
 gruas_list = data.get("Hoja1", [])
 
-# Función auxiliar (se deja por posibles futuras necesidades)
+# Función auxiliar (aquí no se utiliza para filtrar, pero se deja por posibles futuras necesidades)
 def base_model(model_str):
     if model_str:
         return model_str.split("/")[0].strip()
@@ -101,7 +101,8 @@ for grua in gruas_list:
         grua["_errors"] = {"Alcance": err_alcance, "Carga en Punta": err_carga}
     grua["Total Error"] = total_error
 
-    # Asignar un "Tipo" para efectos internos (no se mostrará)
+    # Asignar un "Tipo" para efectos de estilo:
+    # Si ambos errores (alcance y carga) son ≤ 5% se marca "Match" (verde); de lo contrario, "Casi Match" (amarillo)
     if err_alcance <= 0.05 and err_carga <= 0.05:
         grua["Tipo"] = "Match"
     else:
@@ -111,7 +112,7 @@ for grua in gruas_list:
 # Ordenar candidatos de menor a mayor Total Error
 candidatos = sorted(candidatos, key=lambda x: x["Total Error"])
 
-# Eliminar duplicados: conservar para cada modelo el candidato con menor error
+# Eliminar duplicados (por ejemplo, si el mismo modelo aparece varias veces, conservar el de menor error)
 candidatos_unicos = {}
 for cand in candidatos:
     modelo = cand.get("Modelo de Grúa Torre", "")
@@ -125,7 +126,7 @@ candidatos_filtrados = list(candidatos_unicos.values())
 resultados = candidatos_filtrados[:5]
 
 # --------------------------------------------------------------------
-# Preparar la tabla de resultados (sin mostrar "Total Error" y "Tipo")
+# Preparar la tabla de resultados y la imagen a la derecha
 if not resultados:
     st.write("No se encontraron grúas que se ajusten a los parámetros solicitados.")
 else:
@@ -134,8 +135,10 @@ else:
     columnas = ["Modelo de Grúa Torre", "Pluma Instalada (m)", "Carga en Punta (kg)"]
     if use_intermedia:
         columnas += ["Distancia Específica (m)", "Carga específica (kg)"]
+    # Además, internamente guardamos "Total Error" y "Tipo" para el estilo, pero se ocultarán.
+    cols_aux = ["Total Error", "Tipo"]
 
-    # Función para formatear cada fila (sin incluir "Total Error" ni "Tipo")
+    # Función para formatear cada fila
     def formatea_fila(grua):
         fila = {}
         fila["Modelo de Grúa Torre"] = grua.get("Modelo de Grúa Torre", "")
@@ -144,25 +147,46 @@ else:
         if use_intermedia:
             fila["Distancia Específica (m)"] = f"{float(grua.get('Distancia Específica', 0)):.2f}"
             fila["Carga específica (kg)"] = f"{int(round(float(grua.get('Carga específica', 0)))):,d}"
+        fila["Total Error"] = f"{grua.get('Total Error', 0):.3f}"
+        fila["Tipo"] = grua.get("Tipo", "")
         return fila
 
-    df = pd.DataFrame([formatea_fila(g) for g in resultados], columns=columnas)
+    df = pd.DataFrame([formatea_fila(g) for g in resultados])
+    columnas_final = columnas + cols_aux
+    df = df[columnas_final]
     
-    # --------------------------------------------------------------------
-    # Función para colorear filas según el "Tipo" (utilizamos el campo interno)
+    # Función para colorear filas según el "Tipo"
     def color_rows(row):
-        # Buscamos en el candidato original el "Tipo" usando el modelo
-        modelo = row["Modelo de Grúa Torre"]
-        # Extraemos el candidato correspondiente para obtener el "Tipo"
-        candidato = next((cand for cand in resultados if cand.get("Modelo de Grúa Torre", "") == modelo), None)
-        if candidato:
-            if candidato.get("Tipo", "") == "Match":
-                return ['background-color: lightgreen'] * len(row)
-            elif candidato.get("Tipo", "") == "Casi Match":
-                return ['background-color: lightyellow'] * len(row)
-        return [''] * len(row)
+        if row["Tipo"] == "Match":
+            return ['background-color: lightgreen'] * len(row)
+        elif row["Tipo"] == "Casi Match":
+            return ['background-color: lightyellow'] * len(row)
+        else:
+            return [''] * len(row)
     
     styled_df = df.style.apply(color_rows, axis=1)
     
-    st.header("Opciones encontradas")
-    st.dataframe(styled_df)
+    # Ocultar las columnas auxiliares "Total Error" y "Tipo" mediante CSS
+    hide_styles = []
+    for col in cols_aux:
+        if col in df.columns:
+            col_index = list(df.columns).index(col)
+            hide_styles.append({
+                'selector': f'th.col{col_index}',
+                'props': [('display', 'none')]
+            })
+            hide_styles.append({
+                'selector': f'td.col{col_index}',
+                'props': [('display', 'none')]
+            })
+    styled_df = styled_df.set_table_styles(hide_styles, overwrite=False)
+    
+    # Crear dos columnas: la primera para la tabla y la segunda para la imagen.
+    col1, col2 = st.columns([3, 1])
+    
+    with col1:
+        st.header("Opciones encontradas")
+        st.dataframe(styled_df)
+    
+    with col2:
+        st.image("a.png")
