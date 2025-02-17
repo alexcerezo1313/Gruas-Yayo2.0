@@ -1,0 +1,2006 @@
+{
+"Hoja1":[
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 14,
+  "Carga específica": 2420,
+  "Modelo de Grúa Torre": "30LC"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 15,
+  "Carga específica": 2240,
+  "Modelo de Grúa Torre": "30LC"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 16,
+  "Carga específica": 2080,
+  "Modelo de Grúa Torre": "30LC"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 17,
+  "Carga específica": 1950,
+  "Modelo de Grúa Torre": "30LC"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 18,
+  "Carga específica": 1820,
+  "Modelo de Grúa Torre": "30LC"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 19,
+  "Carga específica": 1710,
+  "Modelo de Grúa Torre": "30LC"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 20.4,
+  "Carga específica": 1570,
+  "Modelo de Grúa Torre": "30LC"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 22,
+  "Carga específica": 1440,
+  "Modelo de Grúa Torre": "30LC"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 23,
+  "Carga específica": 1370,
+  "Modelo de Grúa Torre": "30LC"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 24.7,
+  "Carga específica": 1250,
+  "Modelo de Grúa Torre": "30LC"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 26,
+  "Carga específica": 1190,
+  "Modelo de Grúa Torre": "30LC"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 27,
+  "Carga específica": 1130,
+  "Modelo de Grúa Torre": "30LC"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 28,
+  "Carga específica": 1090,
+  "Modelo de Grúa Torre": "30LC"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 29,
+  "Carga específica": 1040,
+  "Modelo de Grúa Torre": "30LC"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 30,
+  "Carga específica": 1000,
+  "Modelo de Grúa Torre": "30LC"
+ },
+ {
+  "Pluma Instalada": 24.7,
+  "Carga en Punta": 1250,
+  "Distancia Específica": 14,
+  "Carga específica": 2420,
+  "Modelo de Grúa Torre": "30LC \/ 24,7"
+ },
+ {
+  "Pluma Instalada": 24.7,
+  "Carga en Punta": 1250,
+  "Distancia Específica": 15,
+  "Carga específica": 2240,
+  "Modelo de Grúa Torre": "30LC \/ 24,7"
+ },
+ {
+  "Pluma Instalada": 24.7,
+  "Carga en Punta": 1250,
+  "Distancia Específica": 16,
+  "Carga específica": 2080,
+  "Modelo de Grúa Torre": "30LC \/ 24,7"
+ },
+ {
+  "Pluma Instalada": 24.7,
+  "Carga en Punta": 1250,
+  "Distancia Específica": 17,
+  "Carga específica": 1950,
+  "Modelo de Grúa Torre": "30LC \/ 24,7"
+ },
+ {
+  "Pluma Instalada": 24.7,
+  "Carga en Punta": 1250,
+  "Distancia Específica": 18,
+  "Carga específica": 1820,
+  "Modelo de Grúa Torre": "30LC \/ 24,7"
+ },
+ {
+  "Pluma Instalada": 24.7,
+  "Carga en Punta": 1250,
+  "Distancia Específica": 19,
+  "Carga específica": 1710,
+  "Modelo de Grúa Torre": "30LC \/ 24,7"
+ },
+ {
+  "Pluma Instalada": 24.7,
+  "Carga en Punta": 1250,
+  "Distancia Específica": 20.4,
+  "Carga específica": 1570,
+  "Modelo de Grúa Torre": "30LC \/ 24,7"
+ },
+ {
+  "Pluma Instalada": 24.7,
+  "Carga en Punta": 1250,
+  "Distancia Específica": 22,
+  "Carga específica": 1440,
+  "Modelo de Grúa Torre": "30LC \/ 24,7"
+ },
+ {
+  "Pluma Instalada": 24.7,
+  "Carga en Punta": 1250,
+  "Distancia Específica": 23,
+  "Carga específica": 1370,
+  "Modelo de Grúa Torre": "30LC \/ 24,7"
+ },
+ {
+  "Pluma Instalada": 24.7,
+  "Carga en Punta": 1250,
+  "Distancia Específica": 24.7,
+  "Carga específica": 1250,
+  "Modelo de Grúa Torre": "30LC \/ 24,7"
+ },
+ {
+  "Pluma Instalada": 20.4,
+  "Carga en Punta": 1570,
+  "Distancia Específica": 14,
+  "Carga específica": 2420,
+  "Modelo de Grúa Torre": "30LC \/ 20,4"
+ },
+ {
+  "Pluma Instalada": 20.4,
+  "Carga en Punta": 1570,
+  "Distancia Específica": 15,
+  "Carga específica": 2240,
+  "Modelo de Grúa Torre": "30LC \/ 20,4"
+ },
+ {
+  "Pluma Instalada": 20.4,
+  "Carga en Punta": 1570,
+  "Distancia Específica": 16,
+  "Carga específica": 2080,
+  "Modelo de Grúa Torre": "30LC \/ 20,4"
+ },
+ {
+  "Pluma Instalada": 20.4,
+  "Carga en Punta": 1570,
+  "Distancia Específica": 17,
+  "Carga específica": 1950,
+  "Modelo de Grúa Torre": "30LC \/ 20,4"
+ },
+ {
+  "Pluma Instalada": 20.4,
+  "Carga en Punta": 1570,
+  "Distancia Específica": 18,
+  "Carga específica": 1820,
+  "Modelo de Grúa Torre": "30LC \/ 20,4"
+ },
+ {
+  "Pluma Instalada": 20.4,
+  "Carga en Punta": 1570,
+  "Distancia Específica": 19,
+  "Carga específica": 1710,
+  "Modelo de Grúa Torre": "30LC \/ 20,4"
+ },
+ {
+  "Pluma Instalada": 20.4,
+  "Carga en Punta": 1570,
+  "Distancia Específica": 20.4,
+  "Carga específica": 1570,
+  "Modelo de Grúa Torre": "30LC \/ 20,4"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 16,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 18,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 20,
+  "Carga específica": 2310,
+  "Modelo de Grúa Torre": "40LC"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 24.6,
+  "Carga específica": 1810,
+  "Modelo de Grúa Torre": "40LC"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 27,
+  "Carga específica": 1620,
+  "Modelo de Grúa Torre": "40LC"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 30.4,
+  "Carga específica": 1400,
+  "Modelo de Grúa Torre": "40LC"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 33,
+  "Carga específica": 1270,
+  "Modelo de Grúa Torre": "40LC"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 36.2,
+  "Carga específica": 1130,
+  "Modelo de Grúa Torre": "40LC"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 40,
+  "Carga específica": 1000,
+  "Modelo de Grúa Torre": "40LC"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1200,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1200,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1200,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1200,
+  "Distancia Específica": 16,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1200,
+  "Distancia Específica": 18,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1200,
+  "Distancia Específica": 20,
+  "Carga específica": 2310,
+  "Modelo de Grúa Torre": "40LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1200,
+  "Distancia Específica": 24.6,
+  "Carga específica": 1900,
+  "Modelo de Grúa Torre": "40LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1200,
+  "Distancia Específica": 27,
+  "Carga específica": 1710,
+  "Modelo de Grúa Torre": "40LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1200,
+  "Distancia Específica": 30.4,
+  "Carga específica": 1480,
+  "Modelo de Grúa Torre": "40LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1200,
+  "Distancia Específica": 33,
+  "Carga específica": 1340,
+  "Modelo de Grúa Torre": "40LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1200,
+  "Distancia Específica": 36.2,
+  "Carga específica": 1200,
+  "Modelo de Grúa Torre": "40LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 1550,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 1550,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 1550,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 1550,
+  "Distancia Específica": 16,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 1550,
+  "Distancia Específica": 18,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 1550,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 1550,
+  "Distancia Específica": 24.6,
+  "Carga específica": 1990,
+  "Modelo de Grúa Torre": "40LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 1550,
+  "Distancia Específica": 27,
+  "Carga específica": 1780,
+  "Modelo de Grúa Torre": "40LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 1550,
+  "Distancia Específica": 30.4,
+  "Carga específica": 1550,
+  "Modelo de Grúa Torre": "40LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 24.6,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC \/ 24,6"
+ },
+ {
+  "Pluma Instalada": 24.6,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC \/ 24,6"
+ },
+ {
+  "Pluma Instalada": 24.6,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC \/ 24,6"
+ },
+ {
+  "Pluma Instalada": 24.6,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 16,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC \/ 24,6"
+ },
+ {
+  "Pluma Instalada": 24.6,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 18,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC \/ 24,6"
+ },
+ {
+  "Pluma Instalada": 24.6,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "40LC \/ 24,6"
+ },
+ {
+  "Pluma Instalada": 24.6,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 24.6,
+  "Carga específica": 2000,
+  "Modelo de Grúa Torre": "40LC \/ 24,6"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 16,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 18,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 22,
+  "Carga específica": 2330,
+  "Modelo de Grúa Torre": "63LC"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 24.6,
+  "Carga específica": 2050,
+  "Modelo de Grúa Torre": "63LC"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 28,
+  "Carga específica": 2770,
+  "Modelo de Grúa Torre": "63LC"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 30.4,
+  "Carga específica": 2610,
+  "Modelo de Grúa Torre": "63LC"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 34,
+  "Carga específica": 1410,
+  "Modelo de Grúa Torre": "63LC"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 36.2,
+  "Carga específica": 1310,
+  "Modelo de Grúa Torre": "63LC"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 40,
+  "Carga específica": 1160,
+  "Modelo de Grúa Torre": "63LC"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 42,
+  "Carga específica": 1090,
+  "Modelo de Grúa Torre": "63LC"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 45,
+  "Carga específica": 1000,
+  "Modelo de Grúa Torre": "63LC"
+ },
+ {
+  "Pluma Instalada": 42,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 42"
+ },
+ {
+  "Pluma Instalada": 42,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 42"
+ },
+ {
+  "Pluma Instalada": 42,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 42"
+ },
+ {
+  "Pluma Instalada": 42,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 16,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 42"
+ },
+ {
+  "Pluma Instalada": 42,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 18,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 42"
+ },
+ {
+  "Pluma Instalada": 42,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 42"
+ },
+ {
+  "Pluma Instalada": 42,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 22,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 42"
+ },
+ {
+  "Pluma Instalada": 42,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 24.6,
+  "Carga específica": 2410,
+  "Modelo de Grúa Torre": "63LC \/ 42"
+ },
+ {
+  "Pluma Instalada": 42,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 28,
+  "Carga específica": 2080,
+  "Modelo de Grúa Torre": "63LC \/ 42"
+ },
+ {
+  "Pluma Instalada": 42,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 30.4,
+  "Carga específica": 1900,
+  "Modelo de Grúa Torre": "63LC \/ 42"
+ },
+ {
+  "Pluma Instalada": 42,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 34,
+  "Carga específica": 1670,
+  "Modelo de Grúa Torre": "63LC \/ 42"
+ },
+ {
+  "Pluma Instalada": 42,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 36.2,
+  "Carga específica": 1550,
+  "Modelo de Grúa Torre": "63LC \/ 42"
+ },
+ {
+  "Pluma Instalada": 42,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 40,
+  "Carga específica": 1380,
+  "Modelo de Grúa Torre": "63LC \/ 42"
+ },
+ {
+  "Pluma Instalada": 42,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 42,
+  "Carga específica": 1300,
+  "Modelo de Grúa Torre": "63LC \/ 42"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1700,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1700,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1700,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1700,
+  "Distancia Específica": 16,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1700,
+  "Distancia Específica": 18,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1700,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1700,
+  "Distancia Específica": 22,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1700,
+  "Distancia Específica": 24.6,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1700,
+  "Distancia Específica": 28,
+  "Carga específica": 2280,
+  "Modelo de Grúa Torre": "63LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1700,
+  "Distancia Específica": 30.4,
+  "Carga específica": 2080,
+  "Modelo de Grúa Torre": "63LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1700,
+  "Distancia Específica": 34,
+  "Carga específica": 1830,
+  "Modelo de Grúa Torre": "63LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 36.2,
+  "Carga en Punta": 1700,
+  "Distancia Específica": 36.2,
+  "Carga específica": 1700,
+  "Modelo de Grúa Torre": "63LC \/ 36,2"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 2150,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 2150,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 2150,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 2150,
+  "Distancia Específica": 16,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 2150,
+  "Distancia Específica": 18,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 2150,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 2150,
+  "Distancia Específica": 22,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 2150,
+  "Distancia Específica": 24.6,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 2150,
+  "Distancia Específica": 28,
+  "Carga específica": 2360,
+  "Modelo de Grúa Torre": "63LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 30.4,
+  "Carga en Punta": 2150,
+  "Distancia Específica": 30.4,
+  "Carga específica": 2150,
+  "Modelo de Grúa Torre": "63LC \/ 30,4"
+ },
+ {
+  "Pluma Instalada": 24.6,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 24,6"
+ },
+ {
+  "Pluma Instalada": 24.6,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 24,6"
+ },
+ {
+  "Pluma Instalada": 24.6,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 24,6"
+ },
+ {
+  "Pluma Instalada": 24.6,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 16,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 24,6"
+ },
+ {
+  "Pluma Instalada": 24.6,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 18,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 24,6"
+ },
+ {
+  "Pluma Instalada": 24.6,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 24,6"
+ },
+ {
+  "Pluma Instalada": 24.6,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 22,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 24,6"
+ },
+ {
+  "Pluma Instalada": 24.6,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 24.6,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "63LC \/ 24,6"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 15,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 17.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 22.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 25,
+  "Carga específica": 2350,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 27.5,
+  "Carga específica": 2110,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 30,
+  "Carga específica": 1900,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 32.5,
+  "Carga específica": 1730,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 35,
+  "Carga específica": 1580,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 37.5,
+  "Carga específica": 1450,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 40,
+  "Carga específica": 1340,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 42.5,
+  "Carga específica": 1240,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 45,
+  "Carga específica": 1150,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 47.5,
+  "Carga específica": 1070,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 50,
+  "Carga en Punta": 1000,
+  "Distancia Específica": 50,
+  "Carga específica": 1000,
+  "Modelo de Grúa Torre": "71EC-B 5"
+ },
+ {
+  "Pluma Instalada": 47.5,
+  "Carga en Punta": 1150,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 47,5"
+ },
+ {
+  "Pluma Instalada": 47.5,
+  "Carga en Punta": 1150,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 47,5"
+ },
+ {
+  "Pluma Instalada": 47.5,
+  "Carga en Punta": 1150,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 47,5"
+ },
+ {
+  "Pluma Instalada": 47.5,
+  "Carga en Punta": 1150,
+  "Distancia Específica": 15,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 47,5"
+ },
+ {
+  "Pluma Instalada": 47.5,
+  "Carga en Punta": 1150,
+  "Distancia Específica": 17.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 47,5"
+ },
+ {
+  "Pluma Instalada": 47.5,
+  "Carga en Punta": 1150,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 47,5"
+ },
+ {
+  "Pluma Instalada": 47.5,
+  "Carga en Punta": 1150,
+  "Distancia Específica": 22.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 47,5"
+ },
+ {
+  "Pluma Instalada": 47.5,
+  "Carga en Punta": 1150,
+  "Distancia Específica": 25,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 47,5"
+ },
+ {
+  "Pluma Instalada": 47.5,
+  "Carga en Punta": 1150,
+  "Distancia Específica": 27.5,
+  "Carga específica": 2240,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 47,5"
+ },
+ {
+  "Pluma Instalada": 47.5,
+  "Carga en Punta": 1150,
+  "Distancia Específica": 30,
+  "Carga específica": 2030,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 47,5"
+ },
+ {
+  "Pluma Instalada": 47.5,
+  "Carga en Punta": 1150,
+  "Distancia Específica": 32.5,
+  "Carga específica": 2840,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 47,5"
+ },
+ {
+  "Pluma Instalada": 47.5,
+  "Carga en Punta": 1150,
+  "Distancia Específica": 35,
+  "Carga específica": 1690,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 47,5"
+ },
+ {
+  "Pluma Instalada": 47.5,
+  "Carga en Punta": 1150,
+  "Distancia Específica": 37.5,
+  "Carga específica": 1550,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 47,5"
+ },
+ {
+  "Pluma Instalada": 47.5,
+  "Carga en Punta": 1150,
+  "Distancia Específica": 40,
+  "Carga específica": 1430,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 47,5"
+ },
+ {
+  "Pluma Instalada": 47.5,
+  "Carga en Punta": 1150,
+  "Distancia Específica": 42.5,
+  "Carga específica": 1330,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 47,5"
+ },
+ {
+  "Pluma Instalada": 47.5,
+  "Carga en Punta": 1150,
+  "Distancia Específica": 45,
+  "Carga específica": 1230,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 47,5"
+ },
+ {
+  "Pluma Instalada": 47.5,
+  "Carga en Punta": 1150,
+  "Distancia Específica": 47.5,
+  "Carga específica": 1150,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 47,5"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 45"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 45"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 45"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 15,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 45"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 17.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 45"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 45"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 22.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 45"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 25,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 45"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 27.5,
+  "Carga específica": 2350,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 45"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 30,
+  "Carga específica": 2130,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 45"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 32.5,
+  "Carga específica": 1940,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 45"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 35,
+  "Carga específica": 1770,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 45"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 37.5,
+  "Carga específica": 1630,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 45"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 40,
+  "Carga específica": 1510,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 45"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 42.5,
+  "Carga específica": 1400,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 45"
+ },
+ {
+  "Pluma Instalada": 45,
+  "Carga en Punta": 1300,
+  "Distancia Específica": 45,
+  "Carga específica": 1300,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 45"
+ },
+ {
+  "Pluma Instalada": 42.5,
+  "Carga en Punta": 1450,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 42,5"
+ },
+ {
+  "Pluma Instalada": 42.5,
+  "Carga en Punta": 1450,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 42,5"
+ },
+ {
+  "Pluma Instalada": 42.5,
+  "Carga en Punta": 1450,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 42,5"
+ },
+ {
+  "Pluma Instalada": 42.5,
+  "Carga en Punta": 1450,
+  "Distancia Específica": 15,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 42,5"
+ },
+ {
+  "Pluma Instalada": 42.5,
+  "Carga en Punta": 1450,
+  "Distancia Específica": 17.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 42,5"
+ },
+ {
+  "Pluma Instalada": 42.5,
+  "Carga en Punta": 1450,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 42,5"
+ },
+ {
+  "Pluma Instalada": 42.5,
+  "Carga en Punta": 1450,
+  "Distancia Específica": 22.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 42,5"
+ },
+ {
+  "Pluma Instalada": 42.5,
+  "Carga en Punta": 1450,
+  "Distancia Específica": 25,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 42,5"
+ },
+ {
+  "Pluma Instalada": 42.5,
+  "Carga en Punta": 1450,
+  "Distancia Específica": 27.5,
+  "Carga específica": 2430,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 42,5"
+ },
+ {
+  "Pluma Instalada": 42.5,
+  "Carga en Punta": 1450,
+  "Distancia Específica": 30,
+  "Carga específica": 2200,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 42,5"
+ },
+ {
+  "Pluma Instalada": 42.5,
+  "Carga en Punta": 1450,
+  "Distancia Específica": 32.5,
+  "Carga específica": 2010,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 42,5"
+ },
+ {
+  "Pluma Instalada": 42.5,
+  "Carga en Punta": 1450,
+  "Distancia Específica": 35,
+  "Carga específica": 2840,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 42,5"
+ },
+ {
+  "Pluma Instalada": 42.5,
+  "Carga en Punta": 1450,
+  "Distancia Específica": 37.5,
+  "Carga específica": 1690,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 42,5"
+ },
+ {
+  "Pluma Instalada": 42.5,
+  "Carga en Punta": 1450,
+  "Distancia Específica": 40,
+  "Carga específica": 1560,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 42,5"
+ },
+ {
+  "Pluma Instalada": 42.5,
+  "Carga en Punta": 1450,
+  "Distancia Específica": 42.5,
+  "Carga específica": 1450,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 42,5"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1600,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 40"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1600,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 40"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1600,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 40"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1600,
+  "Distancia Específica": 15,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 40"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1600,
+  "Distancia Específica": 17.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 40"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1600,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 40"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1600,
+  "Distancia Específica": 22.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 40"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1600,
+  "Distancia Específica": 25,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 40"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1600,
+  "Distancia Específica": 27.5,
+  "Carga específica": 2490,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 40"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1600,
+  "Distancia Específica": 30,
+  "Carga específica": 2250,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 40"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1600,
+  "Distancia Específica": 32.5,
+  "Carga específica": 2050,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 40"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1600,
+  "Distancia Específica": 35,
+  "Carga específica": 1880,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 40"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1600,
+  "Distancia Específica": 37.5,
+  "Carga específica": 1730,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 40"
+ },
+ {
+  "Pluma Instalada": 40,
+  "Carga en Punta": 1600,
+  "Distancia Específica": 40,
+  "Carga específica": 1600,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 40"
+ },
+ {
+  "Pluma Instalada": 37.5,
+  "Carga en Punta": 1800,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 37,5"
+ },
+ {
+  "Pluma Instalada": 37.5,
+  "Carga en Punta": 1800,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 37,5"
+ },
+ {
+  "Pluma Instalada": 37.5,
+  "Carga en Punta": 1800,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 37,5"
+ },
+ {
+  "Pluma Instalada": 37.5,
+  "Carga en Punta": 1800,
+  "Distancia Específica": 15,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 37,5"
+ },
+ {
+  "Pluma Instalada": 37.5,
+  "Carga en Punta": 1800,
+  "Distancia Específica": 17.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 37,5"
+ },
+ {
+  "Pluma Instalada": 37.5,
+  "Carga en Punta": 1800,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 37,5"
+ },
+ {
+  "Pluma Instalada": 37.5,
+  "Carga en Punta": 1800,
+  "Distancia Específica": 22.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 37,5"
+ },
+ {
+  "Pluma Instalada": 37.5,
+  "Carga en Punta": 1800,
+  "Distancia Específica": 25,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 37,5"
+ },
+ {
+  "Pluma Instalada": 37.5,
+  "Carga en Punta": 1800,
+  "Distancia Específica": 27.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 37,5"
+ },
+ {
+  "Pluma Instalada": 37.5,
+  "Carga en Punta": 1800,
+  "Distancia Específica": 30,
+  "Carga específica": 2340,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 37,5"
+ },
+ {
+  "Pluma Instalada": 37.5,
+  "Carga en Punta": 1800,
+  "Distancia Específica": 32.5,
+  "Carga específica": 2130,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 37,5"
+ },
+ {
+  "Pluma Instalada": 37.5,
+  "Carga en Punta": 1800,
+  "Distancia Específica": 35,
+  "Carga específica": 1950,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 37,5"
+ },
+ {
+  "Pluma Instalada": 37.5,
+  "Carga en Punta": 1800,
+  "Distancia Específica": 37.5,
+  "Carga específica": 1800,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 37,5"
+ },
+ {
+  "Pluma Instalada": 35,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 35"
+ },
+ {
+  "Pluma Instalada": 35,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 35"
+ },
+ {
+  "Pluma Instalada": 35,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 35"
+ },
+ {
+  "Pluma Instalada": 35,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 15,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 35"
+ },
+ {
+  "Pluma Instalada": 35,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 17.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 35"
+ },
+ {
+  "Pluma Instalada": 35,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 35"
+ },
+ {
+  "Pluma Instalada": 35,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 22.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 35"
+ },
+ {
+  "Pluma Instalada": 35,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 25,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 35"
+ },
+ {
+  "Pluma Instalada": 35,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 27.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 35"
+ },
+ {
+  "Pluma Instalada": 35,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 30,
+  "Carga específica": 2390,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 35"
+ },
+ {
+  "Pluma Instalada": 35,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 32.5,
+  "Carga específica": 2180,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 35"
+ },
+ {
+  "Pluma Instalada": 35,
+  "Carga en Punta": 2000,
+  "Distancia Específica": 35,
+  "Carga específica": 2000,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 35"
+ },
+ {
+  "Pluma Instalada": 32.5,
+  "Carga en Punta": 2250,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 32,5"
+ },
+ {
+  "Pluma Instalada": 32.5,
+  "Carga en Punta": 2250,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 32,5"
+ },
+ {
+  "Pluma Instalada": 32.5,
+  "Carga en Punta": 2250,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 32,5"
+ },
+ {
+  "Pluma Instalada": 32.5,
+  "Carga en Punta": 2250,
+  "Distancia Específica": 15,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 32,5"
+ },
+ {
+  "Pluma Instalada": 32.5,
+  "Carga en Punta": 2250,
+  "Distancia Específica": 17.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 32,5"
+ },
+ {
+  "Pluma Instalada": 32.5,
+  "Carga en Punta": 2250,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 32,5"
+ },
+ {
+  "Pluma Instalada": 32.5,
+  "Carga en Punta": 2250,
+  "Distancia Específica": 22.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 32,5"
+ },
+ {
+  "Pluma Instalada": 32.5,
+  "Carga en Punta": 2250,
+  "Distancia Específica": 25,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 32,5"
+ },
+ {
+  "Pluma Instalada": 32.5,
+  "Carga en Punta": 2250,
+  "Distancia Específica": 27.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 32,5"
+ },
+ {
+  "Pluma Instalada": 32.5,
+  "Carga en Punta": 2250,
+  "Distancia Específica": 30,
+  "Carga específica": 2470,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 32,5"
+ },
+ {
+  "Pluma Instalada": 32.5,
+  "Carga en Punta": 2250,
+  "Distancia Específica": 32.5,
+  "Carga específica": 2250,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 32,5"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 30"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 30"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 30"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 15,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 30"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 17.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 30"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 30"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 22.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 30"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 25,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 30"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 27.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 30"
+ },
+ {
+  "Pluma Instalada": 30,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 30,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 30"
+ },
+ {
+  "Pluma Instalada": 27.5,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 27,5"
+ },
+ {
+  "Pluma Instalada": 27.5,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 27,5"
+ },
+ {
+  "Pluma Instalada": 27.5,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 27,5"
+ },
+ {
+  "Pluma Instalada": 27.5,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 15,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 27,5"
+ },
+ {
+  "Pluma Instalada": 27.5,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 17.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 27,5"
+ },
+ {
+  "Pluma Instalada": 27.5,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 27,5"
+ },
+ {
+  "Pluma Instalada": 27.5,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 22.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 27,5"
+ },
+ {
+  "Pluma Instalada": 27.5,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 25,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 27,5"
+ },
+ {
+  "Pluma Instalada": 27.5,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 27.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 27,5"
+ },
+ {
+  "Pluma Instalada": 25,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 25"
+ },
+ {
+  "Pluma Instalada": 25,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 25"
+ },
+ {
+  "Pluma Instalada": 25,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 25"
+ },
+ {
+  "Pluma Instalada": 25,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 15,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 25"
+ },
+ {
+  "Pluma Instalada": 25,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 17.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 25"
+ },
+ {
+  "Pluma Instalada": 25,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 25"
+ },
+ {
+  "Pluma Instalada": 25,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 22.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 25"
+ },
+ {
+  "Pluma Instalada": 25,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 25,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 25"
+ },
+ {
+  "Pluma Instalada": 22.5,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 22,5"
+ },
+ {
+  "Pluma Instalada": 22.5,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 22,5"
+ },
+ {
+  "Pluma Instalada": 22.5,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 22,5"
+ },
+ {
+  "Pluma Instalada": 22.5,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 15,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 22,5"
+ },
+ {
+  "Pluma Instalada": 22.5,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 17.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 22,5"
+ },
+ {
+  "Pluma Instalada": 22.5,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 22,5"
+ },
+ {
+  "Pluma Instalada": 22.5,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 22.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 22,5"
+ },
+ {
+  "Pluma Instalada": 20,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 10,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 20"
+ },
+ {
+  "Pluma Instalada": 20,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 12,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 20"
+ },
+ {
+  "Pluma Instalada": 20,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 14,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 20"
+ },
+ {
+  "Pluma Instalada": 20,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 15,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 20"
+ },
+ {
+  "Pluma Instalada": 20,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 17.5,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 20"
+ },
+ {
+  "Pluma Instalada": 20,
+  "Carga en Punta": 2500,
+  "Distancia Específica": 20,
+  "Carga específica": 2500,
+  "Modelo de Grúa Torre": "71EC-B 5 \/ 20"
+ }
+]
+}
