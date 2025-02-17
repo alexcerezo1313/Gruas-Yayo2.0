@@ -27,8 +27,8 @@ def base_model(model_str):
 
 # --------------------------------------------------------------------
 # Parámetros obligatorios
-target_alcance = st.sidebar.number_input("Alcance deseado (m):", value=30.0, step=0.5)
-target_carga_punta = st.sidebar.number_input("Carga en Punta (kg):", value=1000, step=100)
+target_alcance = st.sidebar.number_input("(A) Alcance Deseado (m):", value=30.0, step=0.5)
+target_carga_punta = st.sidebar.number_input("(B) Carga en Punta (kg):", value=1000, step=100)
 
 # Para "Pluma Instalada": se aceptan grúas con valor entre target y target*1.15
 alcance_min = float(target_alcance)
@@ -42,8 +42,8 @@ carga_punta_max = target_carga_punta * 1.20
 # Parámetros opcionales para Carga Intermedia Deseada
 use_intermedia = st.sidebar.checkbox("Carga Intermedia Deseada")
 if use_intermedia:
-    target_distancia = st.sidebar.number_input("Distancia Deseada (m):", value=14.0, step=0.5)
-    target_carga_intermedia = st.sidebar.number_input("Carga Intermedia Deseada (kg):", value=2420, step=100)
+    target_distancia = st.sidebar.number_input("(C) Distancia Deseada (m):", value=14.0, step=0.5)
+    target_carga_intermedia = st.sidebar.number_input("(D) Carga Intermedia Deseada (kg):", value=2420, step=100)
     # Se exigen valores entre target y target*1.05 (±5%) para estos parámetros
     distancia_min = float(target_distancia)
     distancia_max = target_distancia * 1.05
@@ -126,7 +126,7 @@ candidatos_filtrados = list(candidatos_unicos.values())
 resultados = candidatos_filtrados[:5]
 
 # --------------------------------------------------------------------
-# Preparar la tabla de resultados y la imagen a la derecha
+# Preparar la tabla de resultados y la imagen debajo de la tabla
 if not resultados:
     st.write("No se encontraron grúas que se ajusten a los parámetros solicitados.")
 else:
@@ -181,12 +181,8 @@ else:
             })
     styled_df = styled_df.set_table_styles(hide_styles, overwrite=False)
     
-    # Crear dos columnas: la primera para la tabla y la segunda para la imagen.
-    col1, col2 = st.columns([3, 1])
+    st.header("Opciones encontradas")
+    st.dataframe(styled_df)
     
-    with col1:
-        st.header("Opciones encontradas")
-        st.dataframe(styled_df)
-    
-    with col2:
-        st.image("a.png")
+    # Mostrar la imagen debajo de la tabla con un tamaño mayor (por ejemplo, width=400)
+    st.image("a.png", width=400)
