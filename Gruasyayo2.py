@@ -69,7 +69,7 @@ def relative_error(value, target):
     return (value - target) / target
 
 # --------------------------------------------------------------------
-# Filtrado y clasificación de candidatos (SIN opción de stock ni inventario)
+# Filtrado y clasificación de candidatos (aplicando los requisitos)
 candidatos = []
 
 for grua in gruas_list:
@@ -141,6 +141,45 @@ candidatos_filtrados = list(candidatos_unicos.values())
 resultados = candidatos_filtrados[:5]
 
 # --------------------------------------------------------------------
+# Si no hay ningún candidato que cumpla los requisitos, buscar dos grúas aproximadas:
+if not resultados:
+    aproximado_menor = None  # Grúa con error negativo (menos valores requeridos)
+    aproximado_mayor = None  # Grúa con error positivo (más valores requeridos)
+    best_error_neg = -float('inf')  # Buscamos el mayor error negativo (más cercano a 0)
+    best_error_pos = float('inf')    # Buscamos el menor error positivo (más cercano a 0)
+    
+    for grua in gruas_list:
+        try:
+            alcance_val = float(grua.get("Pluma Instalada", 0))
+            carga_val = float(grua.get("Carga en Punta", 0))
+        except:
+            continue
+        err_alcance = relative_error(alcance_val, target_alcance)
+        err_carga = relative_error(carga_val, target_carga_punta)
+        total_error = err_alcance + err_carga
+        # Clasificamos según si el error total es negativo (menos) o positivo (más)
+        if total_error < 0:
+            if total_error > best_error_neg:
+                best_error_neg = total_error
+                aproximado_menor = grua.copy()
+                aproximado_menor["Total Error"] = total_error
+        elif total_error > 0:
+            if total_error < best_error_pos:
+                best_error_pos = total_error
+                aproximado_mayor = grua.copy()
+                aproximado_mayor["Total Error"] = total_error
+    
+    resultados = []
+    if aproximado_menor is not None:
+        aproximado_menor["Tipo"] = "Aproximado"
+        aproximado_menor["Aproximado"] = True
+        resultados.append(aproximado_menor)
+    if aproximado_mayor is not None:
+        aproximado_mayor["Tipo"] = "Aproximado"
+        aproximado_mayor["Aproximado"] = True
+        resultados.append(aproximado_mayor)
+
+# --------------------------------------------------------------------
 # Si se habilita Inventario, se añade la info correspondiente a cada candidato
 if use_inventario:
     for grua in resultados:
@@ -158,16 +197,14 @@ if not resultados:
     st.write("No se encontraron grúas que se ajusten a los parámetros solicitados.")
 else:
     # Definir las columnas a mostrar:
-    # Siempre se muestran: Modelo, Pluma Instalada y Carga en Punta.
     columnas = ["Modelo de Grúa Torre", "Pluma Instalada (m)", "Carga en Punta (kg)"]
     if use_intermedia:
         columnas += ["Distancia Específica (m)", "Carga específica (kg)"]
-    # Si se habilita inventario, se añade la columna Inventario
     if use_inventario:
         columnas.append("Inventario")
-    # Además, internamente se guardan "Total Error" y "Tipo" para el estilo, pero se ocultarán.
+    # Se agregarán columnas auxiliares (que luego se ocultarán)
     cols_aux = ["Total Error", "Tipo"]
-
+    
     # Función para formatear cada fila
     def formatea_fila(grua):
         fila = {}
@@ -181,31 +218,36 @@ else:
             fila["Inventario"] = grua.get("Inventario", "")
         fila["Total Error"] = f"{grua.get('Total Error', 0):.3f}"
         fila["Tipo"] = grua.get("Tipo", "")
+        # Pasamos el flag "Aproximado" para el estilo (aunque no se muestre)
+        fila["Aproximado"] = grua.get("Aproximado", False)
         return fila
 
     df = pd.DataFrame([formatea_fila(g) for g in resultados])
-    columnas_final = columnas + cols_aux
+    columnas_final = columnas + cols_aux + ["Aproximado"]
     df = df[columnas_final]
     
     # Función para colorear filas:
-    # Si se tiene Inventario y este es "No hay", se pinta la fila en rojo;
-    # caso contrario, se usan los colores según "Tipo".
+    # - Si el flag "Aproximado" es True, se pinta la fila en rojo.
+    # - Si hay Inventario "No hay", se pinta en rojo.
+    # - En caso contrario, se aplica el color según "Tipo" (para candidatos que cumplen)
     def color_rows(row):
-        if "Inventario" in row and row["Inventario"] == "No hay":
+        if row.get("Aproximado", False):
+            return ['background-color: red'] * len(row)
+        elif "Inventario" in row and row["Inventario"] == "No hay":
             return ['background-color: red'] * len(row)
         else:
             if row["Tipo"] == "Match":
                 return ['background-color: lightgreen'] * len(row)
             elif row["Tipo"] == "Casi Match":
-                return ['background-color: lightyellow'] * len(row)
+                return ['background-color: #ffcc00'] * len(row)
             else:
                 return [''] * len(row)
     
     styled_df = df.style.apply(color_rows, axis=1)
     
-    # Ocultar las columnas auxiliares "Total Error" y "Tipo" mediante CSS
+    # Ocultar las columnas auxiliares "Total Error", "Tipo" y "Aproximado"
     hide_styles = []
-    for col in cols_aux:
+    for col in cols_aux + ["Aproximado"]:
         if col in df.columns:
             col_index = list(df.columns).index(col)
             hide_styles.append({
