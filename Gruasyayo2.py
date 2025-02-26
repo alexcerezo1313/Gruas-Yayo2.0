@@ -68,7 +68,7 @@ def relative_error(value, target):
     return (value - target) / target
 
 # --------------------------------------------------------------------
-# Filtrado y clasificación de candidatos que cumplan los requisitos
+# Filtrado y clasificación de candidatos (que cumplan los requisitos)
 candidatos = []
 for grua in gruas_list:
     try:
@@ -77,6 +77,7 @@ for grua in gruas_list:
     except:
         continue
 
+    # Se requiere que ambos campos estén dentro del rango permitido
     if not (alcance_min <= alcance_val <= alcance_max):
         continue
     if not (carga_punta_min <= carga_val <= carga_punta_max):
@@ -84,6 +85,7 @@ for grua in gruas_list:
 
     err_alcance = relative_error(alcance_val, target_alcance)
     err_carga = relative_error(carga_val, target_carga_punta)
+    # Se descarta si alguno supera el 15%
     if err_alcance > 0.15 or err_carga > 0.15:
         continue
     total_error = err_alcance + err_carga
@@ -115,7 +117,7 @@ for grua in gruas_list:
         grua["Tipo"] = "Casi Match"
     candidatos.append(grua)
 
-# Ordenar y eliminar duplicados (se conserva el de menor error para cada modelo)
+# Ordenar candidatos y eliminar duplicados (se conserva el de menor error para cada modelo)
 candidatos = sorted(candidatos, key=lambda x: x["Total Error"])
 candidatos_unicos = {}
 for cand in candidatos:
@@ -131,13 +133,15 @@ candidatos_filtrados = list(candidatos_unicos.values())
 resultados = candidatos_filtrados[:5]
 
 # --------------------------------------------------------------------
-# Si no se encontró ningún candidato que cumpla los requisitos,
-# se buscan las dos grúas que más se aproximen:
+# Si no se encontraron candidatos que cumplan los requisitos,
+# se buscan dos grúas aproximadas:
+#   - Una en la que BOTH "Pluma Instalada" y "Carga en Punta" sean menores al target.
+#   - Otra en la que ambas sean mayores.
 if not resultados:
-    aproximado_menor = None  # Grúa con valores inferiores (error total negativo)
-    aproximado_mayor = None  # Grúa con valores superiores (error total positivo)
-    best_error_neg = -float('inf')
-    best_error_pos = float('inf')
+    aproximado_menor = None  # Ambas medidas menores
+    aproximado_mayor = None  # Ambas medidas mayores
+    best_error_neg = -float('inf')  # Entre los candidatos con ambos campos menores, buscamos el que esté más cerca de 0 (error negativo mayor)
+    best_error_pos = float('inf')    # Para los que tienen ambos campos mayores, buscamos el que esté más cerca de 0 (error positivo menor)
     
     for grua in gruas_list:
         try:
@@ -145,18 +149,25 @@ if not resultados:
             carga_val = float(grua.get("Carga en Punta", 0))
         except:
             continue
-        err_alcance = relative_error(alcance_val, target_alcance)
-        err_carga = relative_error(carga_val, target_carga_punta)
-        total_error = err_alcance + err_carga
         
-        if total_error < 0 and total_error > best_error_neg:
-            best_error_neg = total_error
-            aproximado_menor = grua.copy()
-            aproximado_menor["Total Error"] = total_error
-        elif total_error > 0 and total_error < best_error_pos:
-            best_error_pos = total_error
-            aproximado_mayor = grua.copy()
-            aproximado_mayor["Total Error"] = total_error
+        # Solo consideramos candidatos en los que AMBOS campos sean menores al target:
+        if alcance_val < target_alcance and carga_val < target_carga_punta:
+            err_alcance = relative_error(alcance_val, target_alcance)
+            err_carga = relative_error(carga_val, target_carga_punta)
+            total_error = err_alcance + err_carga  # será negativo
+            if total_error > best_error_neg:
+                best_error_neg = total_error
+                aproximado_menor = grua.copy()
+                aproximado_menor["Total Error"] = total_error
+        # O candidatos en los que AMBOS campos sean mayores al target:
+        elif alcance_val > target_alcance and carga_val > target_carga_punta:
+            err_alcance = relative_error(alcance_val, target_alcance)
+            err_carga = relative_error(carga_val, target_carga_punta)
+            total_error = err_alcance + err_carga  # será positivo
+            if total_error < best_error_pos:
+                best_error_pos = total_error
+                aproximado_mayor = grua.copy()
+                aproximado_mayor["Total Error"] = total_error
 
     resultados = []
     if aproximado_menor is not None:
@@ -182,7 +193,6 @@ if use_inventario:
 
 # --------------------------------------------------------------------
 # Preparar la tabla de resultados y mostrar la imagen debajo
-# Se definen las columnas a mostrar
 columnas = ["Modelo de Grúa Torre", "Pluma Instalada (m)", "Carga en Punta (kg)"]
 if use_intermedia:
     columnas += ["Distancia Específica (m)", "Carga específica (kg)"]
@@ -190,7 +200,6 @@ if use_inventario:
     columnas.append("Inventario")
 cols_aux = ["Total Error", "Tipo"]
 
-# Función para formatear cada fila
 def formatea_fila(grua):
     fila = {}
     fila["Modelo de Grúa Torre"] = grua.get("Modelo de Grúa Torre", "")
@@ -210,7 +219,6 @@ df = pd.DataFrame([formatea_fila(g) for g in resultados])
 columnas_final = columnas + cols_aux + ["Aproximado"]
 df = df[columnas_final]
 
-# Función para colorear filas:
 def color_rows(row):
     # Si es una grúa aproximada, se pinta en naranja
     if row.get("Aproximado", False):
@@ -228,7 +236,6 @@ def color_rows(row):
 
 styled_df = df.style.apply(color_rows, axis=1)
 
-# Ocultar las columnas auxiliares
 hide_styles = []
 for col in cols_aux + ["Aproximado"]:
     if col in df.columns:
@@ -246,5 +253,4 @@ styled_df = styled_df.set_table_styles(hide_styles, overwrite=False)
 st.header("Opciones encontradas")
 st.dataframe(styled_df)
 
-# Mostrar la imagen debajo de la tabla con tamaño mayor
 st.image("a.png", width=400)
